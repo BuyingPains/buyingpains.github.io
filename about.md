@@ -1,7 +1,5 @@
 ## Content in Development 11/24/20. Come back soon!!
 
-## Video
+## About the team
 
-## Text
-
-## Link cards to subpages
+## Research
