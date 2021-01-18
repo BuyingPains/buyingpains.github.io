@@ -1,0 +1,8 @@
+<h3> {{ include.tf-header }} </h3>
+
+{{ include.tf-text }}
+
+{% include resources.html
+	tf-id = include.tf-id 
+	tf-resource-text = include.tf-resource-text
+	%}

@@ -1,0 +1,9 @@
+{{ include.tf-resource-text }}
+
+<ul>
+{% for resource in site.data.resources %}
+	{% if resource.Page == include.tf-id %}
+		<li> {{ resource.Title }}, {{ resource.Author }}, Found at: <a href="{{ resource.Link }}"> {{ resource.Publisher}} (link)</a>, {{ resource.Year }} </li>
+	{% endif %}
+{% endfor %}
+</ul>
